@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+/*sharia zainab*/
+import React from 'react';
 import './App.css';
+import ToDoList from './ToDoList'; // Import the new component
+import { Container, Row, Col } from 'react-bootstrap'; // Import Bootstrap components
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Assignment 2: Omer's ToDo List</h1>
       </header>
+      <Container>
+        <Row>
+          <Col sm={8}> {/* ToDo list on the right */}
+            <ToDoList />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }

@@ -1,3 +1,4 @@
+/*sharia zainab*/
 .App {
   text-align: center;
 }
@@ -14,14 +15,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -32,7 +31,90 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.list-group-item {
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+input[type="date"] {
+  display: block;
+  margin-top: 10px;
+}
+
+.form-container {
+  background-color: #28a745;
+  /* Adjust color */
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+}
+
+button {
+  width: 100%;
+  /* Full-width button */
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="date"] {
+  margin-bottom: 10px;
+  width: 100%;
+  /* Ensure inputs take up the full width */
+}
+
+.form-container {
+  background-color: #28a745;
+  /* Green background */
+  padding: 20px;
+  /* Padding inside the container */
+  border-radius: 10px;
+  /* Rounded corners */
+  color: white;
+  /* Text color */
+}
+
+button {
+  width: 100%;
+  /* Full-width button */
+  background-color: #007bff;
+  /* Blue button */
+  color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+input[type="text"],
+input[type="date"] {
+  margin-bottom: 10px;
+  width: 100%;
+  /* Full-width inputs */
+  padding: 8px;
+  /* Some padding for a nicer look */
+  border-radius: 5px;
+  border: none;
+}
+
+.todo-list-container {
+  padding: 20px;
+}
+
+.list-group-item {
+  margin-bottom: 10px;
+  /* Add spacing between the items */
+  border-radius: 5px;
+  /* Make the items rounded */
+  padding: 15px;
+  font-weight: bold;
+  text-align: center;
 }
